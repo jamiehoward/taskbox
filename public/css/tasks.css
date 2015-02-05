@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+body {
+    background:
+    linear-gradient(
+            rgba(0, 50, 50, 0.65),
+            rgba(0, 50, 50, 0.65)
+    ),
+    url('../images/bg-ocean.jpeg') no-repeat center center fixed;
+    /*url('https://unsplash.imgix.net/photo-1416592525293-e65266465eb7?q=75&fm=jpg&s=c913af759e2a9dc0d6a671f4681466b6') no-repeat center center fixed;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body { color:white; }
+#new-task-item {
+    background:transparent;
+    border:none;
+    padding-left:2px;
+
+}
+
+.header-logo {
+    font-family: 'Press Start 2P', fixed-width;
+    font-size: 28px;
+    /*position:fixed;*/
+    /*left:10px;*/
+    /*top:0px;*/
+}
+
+.loading-overlay {
+    background:#8a8a8a;
+    position:absolute;
+    border-radius:5px;
+    opacity:0.5;
+    width:100%;
+    height:100%;
+    z-index: 1;
+}
+.loading-icon {
+    position:relative;
+    margin:0 auto;
+    width:100px;
+    top:50px;
+}
+
+#main-content {
+    max-width:700px;
+}
+
+.task-check {
+    position:relative;
+    bottom:3px;
+}
+
+.task-description:hover {
+    cursor: pointer;
+    color:#E1E1E1;
+}
+
+.task-completed-item > em {
+    color:#d3d3d3;
+}
+
+.task-list-container {
+    /*margin-top:35px;*/
+}
+
+.modal-body,
+.modal-header,
+.modal-footer {
+    color:black;
+
+}
+
+#taskModalDetails {
+    color:black;
+}
